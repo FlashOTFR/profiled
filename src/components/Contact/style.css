@@ -1,0 +1,63 @@
+.logo-box {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10%
+}
+
+
+.logo-box h1 {
+    font-size: 80px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    text-align: center;
+    padding: 10%;
+}
+
+.contact-box-content {
+    padding: 10%;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    text-align: center;
+    color: white;
+}
+
+.contact-text h2 {
+    font-size: 45px;
+
+}
+
+.contact-text h3 {
+    font-size: 55px;
+    
+}
+
+.contact-box-content h2 {
+    font-size: 45px;
+}
+.contact-box-content h3 {
+    font-size: 55px;
+}
+
+.contact-box-content ul {
+    list-style-type: none;
+    color: white;
+}
+
+.contact-box-content a {
+    text-decoration: none;
+}
+
+.contact-box-content a:hover,
+.contact-box-content a:active {
+    color: orange;
+    text-decoration: none;
+}
