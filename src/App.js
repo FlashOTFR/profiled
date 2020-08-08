@@ -39,10 +39,10 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
           <main style={{marginTop: '64px'}}>        
-              <Route exact path="/" component={Home} />
-              <Route exact path="/profiled" component={Home} />
-              <Route exact path="/contact" component={Contact} />
-              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+              <Route exact path={process.env.PUBLIC_URL + "/profiled"} component={Home} />
+              <Route exact path={process.env.PUBLIC_URL + "/contact") component={Contact} />
+              <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio} />
           </main>
         </div>
       </Router>
