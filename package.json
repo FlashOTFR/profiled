@@ -1,6 +1,6 @@
 {
   "name": "newprof",
-  "homepage": "http://flashotfr.github.io/profiled",
+  "homepage": "https://flashotfr.github.io/profiled",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
