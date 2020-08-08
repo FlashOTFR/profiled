@@ -41,7 +41,7 @@ class App extends Component {
           <main style={{marginTop: '64px'}}>        
               <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
               <Route exact path={process.env.PUBLIC_URL + "/profiled"} component={Home} />
-              <Route exact path={process.env.PUBLIC_URL + "/contact") component={Contact} />
+              <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
               <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio} />
           </main>
         </div>
