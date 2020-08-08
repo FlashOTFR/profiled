@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import { render } from '@testing-library/react';
 import Toolbar from './components/Toolbar';
 import SideDrawer from './components/SideDrawer';
@@ -33,19 +33,19 @@ class App extends Component {
       
     }
     return (
-      <Router>
+      <HashRouter basename="/">
         <div style={{height: '100%'}}>
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
           <main style={{marginTop: '64px'}}>        
-              <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-              <Route exact path={process.env.PUBLIC_URL + "/profiled"} component={Home} />
-              <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
-              <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio} />
+              <Route exact path={"/"} component={Home} />
+              <Route exact path={"/profiled"} component={Home} />
+              <Route exact path={"/contact"} component={Contact} />
+              <Route exact path={"/portfolio"} component={Portfolio} />
           </main>
         </div>
-      </Router>
+      </HashRouter>
     )}
 
 
