@@ -16,16 +16,16 @@ class Contact extends Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-4">
-                        <div className="contact-text">
-                            <h3>Feel free to reach out to me with any projects or career opportunities that you would like to discuss</h3>
-                        </div>
-                    </div>
-                    
-                    <div className="col-md-4"></div>
-                    
-                    <div className="col-md-4">
+                    <div className="col-md-12">
                         <div className="contact-box">
+
+                            <div className="contact-text">
+                                <h3>Feel free to reach out to me with any projects or career opportunities that you would like to discuss, using my contact information below.</h3>
+                            </div>
+                        </div>
+                    
+                    
+                    
                             <div className="contact-box-content">
                                 <ul>
                                     <li>
@@ -47,7 +47,7 @@ class Contact extends Component {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    
                     
                 </div>
 
