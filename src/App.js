@@ -8,7 +8,7 @@ import DrawerToggleButton from './components/DrawerToggleButton';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-
+import About from './components/About';
 
 class App extends Component {
   state = {
@@ -43,6 +43,7 @@ class App extends Component {
               <Route exact path="/profiled" component={Home} />
               <Route exact path="/contact" component={Contact} />
               <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/about" component={About} />
           </main>
         </div>
       </HashRouter>

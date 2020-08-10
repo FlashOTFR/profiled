@@ -1,0 +1,11 @@
+.announcement {
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.announcement h1 {
+    font-size: 200px;
+}
